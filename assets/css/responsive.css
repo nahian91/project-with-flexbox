@@ -1,0 +1,55 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 300px;
+  }
+  .header {
+    flex-direction: column;
+  }
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .single-about {
+    flex-basis: 100%;
+    padding: 25px 10px;
+    margin-bottom: 25px;
+  }
+  .single-service {
+    flex-basis: 100%;
+    margin-bottom: 25px;
+  }
+  .single-gallery {
+    flex-basis: 48%;
+    margin-bottom: 15px;
+  }
+  .contact-form {
+    flex-basis: 100%;
+    margin-bottom: 25px;
+  }
+  .contact-address {
+    flex-basis: 100%;
+  }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container{
+        width: 450px;
+    }
+}
